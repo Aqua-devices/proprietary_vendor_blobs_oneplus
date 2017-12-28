@@ -19,8 +19,9 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),cheeseburger)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := IFAAService
+LOCAL_MODULE := com.fingerprints.extension
 LOCAL_MODULE_OWNER := oneplus
+<<<<<<< HEAD
 LOCAL_SRC_FILES := proprietary/priv-app/IFAAService/IFAAService.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
@@ -255,6 +256,9 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := qcnvitems
 LOCAL_MODULE_OWNER := oneplus
 LOCAL_SRC_FILES := proprietary/framework/qcnvitems.jar
+=======
+LOCAL_SRC_FILES := proprietary/framework/com.fingerprints.extension.jar
+>>>>>>> 8a2ae5e0... msm8998: update and commonize blobs from OOS 5.0
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
@@ -262,21 +266,13 @@ LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := qcrilhook
+LOCAL_MODULE := vendor.qti.hardware.fingerprint-V1.0-java
 LOCAL_MODULE_OWNER := oneplus
-LOCAL_SRC_FILES := proprietary/framework/qcrilhook.jar
+LOCAL_SRC_FILES := proprietary/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
-endif
-
-ifneq ($(TARGET_HAVE_QC_PERF),true)
-
-endif
-
-$(shell mkdir -p $(PRODUCT_OUT)/system/vendor/lib/egl && pushd $(PRODUCT_OUT)/system/vendor/lib > /dev/null && ln -sf egl/libEGL_adreno.so libEGL_adreno.so && popd > /dev/null)
-$(shell mkdir -p $(PRODUCT_OUT)/system/vendor/lib64/egl && pushd $(PRODUCT_OUT)/system/vendor/lib64 > /dev/null && ln -sf egl/libEGL_adreno.so libEGL_adreno.so && popd > /dev/null)
 endif
