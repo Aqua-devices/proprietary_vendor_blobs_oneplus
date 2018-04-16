@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
 <<<<<<< HEAD
+<<<<<<< HEAD
     vendor/oneplus/cheeseburger/proprietary/bin/ifaadaemon:system/bin/ifaadaemon \
     vendor/oneplus/cheeseburger/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/oneplus/cheeseburger/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
@@ -805,6 +806,10 @@ endif
     vendor/oneplus/cheeseburger/proprietary/etc/permissions/com.fingerprints.extension.xml:system/etc/permissions/com.fingerprints.extension.xml \
     vendor/oneplus/cheeseburger/proprietary/lib/hw/fingerprint.msm8998.so:system/lib/hw/fingerprint.msm8998.so \
     vendor/oneplus/cheeseburger/proprietary/lib64/hw/fingerprint.msm8998.so:system/lib64/hw/fingerprint.msm8998.so \
+=======
+    vendor/oneplus/cheeseburger/proprietary/vendor/lib/hw/fingerprint.msm8998.so:system/vendor/lib/hw/fingerprint.msm8998.so \
+    vendor/oneplus/cheeseburger/proprietary/vendor/lib64/hw/fingerprint.msm8998.so:system/vendor/lib64/hw/fingerprint.msm8998.so \
+>>>>>>> 2bd68d6b... msm8998: move fingerprint and touchscreen blobs to vendor, commonize fp extensions
     vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/EU/EU_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/EU/EU_Bluetooth_cal.acdb \
     vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/EU/EU_General_cal.acdb:system/vendor/etc/acdbdata/EU/EU_General_cal.acdb \
     vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/EU/EU_Global_cal.acdb:system/vendor/etc/acdbdata/EU/EU_Global_cal.acdb \
@@ -823,6 +828,7 @@ endif
     vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp:system/vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp \
     vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:system/vendor/etc/acdbdata/adsp_avs_config.acdb \
     vendor/oneplus/cheeseburger/proprietary/vendor/etc/qdcm_calib_data_samsung_s6e3fa5_1080p_cmd_mode_dsi_panel.xml:system/vendor/etc/qdcm_calib_data_samsung_s6e3fa5_1080p_cmd_mode_dsi_panel.xml \
+<<<<<<< HEAD
     vendor/oneplus/cheeseburger/proprietary/vendor/etc/qdcm_calib_data_samsung_s6e3fa6_1080p_cmd_mode_dsi_panel.xml:system/vendor/etc/qdcm_calib_data_samsung_s6e3fa6_1080p_cmd_mode_dsi_panel.xml \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:system/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:system/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
@@ -831,3 +837,6 @@ PRODUCT_PACKAGES += \
     com.fingerprints.extension \
     vendor.qti.hardware.fingerprint-V1.0-java
 >>>>>>> 8a2ae5e0... msm8998: update and commonize blobs from OOS 5.0
+=======
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/qdcm_calib_data_samsung_s6e3fa6_1080p_cmd_mode_dsi_panel.xml:system/vendor/etc/qdcm_calib_data_samsung_s6e3fa6_1080p_cmd_mode_dsi_panel.xml
+>>>>>>> 2bd68d6b... msm8998: move fingerprint and touchscreen blobs to vendor, commonize fp extensions

@@ -18,6 +18,7 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),cheeseburger)
 
+<<<<<<< HEAD
 include $(CLEAR_VARS)
 LOCAL_MODULE := com.fingerprints.extension
 LOCAL_MODULE_OWNER := oneplus
@@ -275,4 +276,6 @@ LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
+=======
+>>>>>>> 2bd68d6b... msm8998: move fingerprint and touchscreen blobs to vendor, commonize fp extensions
 endif
