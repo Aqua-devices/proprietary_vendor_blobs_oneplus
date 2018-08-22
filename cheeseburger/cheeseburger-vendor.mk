@@ -17,6 +17,7 @@
 PRODUCT_COPY_FILES += \
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     vendor/oneplus/cheeseburger/proprietary/bin/ifaadaemon:system/bin/ifaadaemon \
     vendor/oneplus/cheeseburger/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/oneplus/cheeseburger/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
@@ -840,3 +841,26 @@ PRODUCT_PACKAGES += \
 =======
     vendor/oneplus/cheeseburger/proprietary/vendor/etc/qdcm_calib_data_samsung_s6e3fa6_1080p_cmd_mode_dsi_panel.xml:system/vendor/etc/qdcm_calib_data_samsung_s6e3fa6_1080p_cmd_mode_dsi_panel.xml
 >>>>>>> 2bd68d6b... msm8998: move fingerprint and touchscreen blobs to vendor, commonize fp extensions
+=======
+    vendor/oneplus/cheeseburger/proprietary/vendor/lib/hw/fingerprint.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.msm8998.so \
+    vendor/oneplus/cheeseburger/proprietary/vendor/lib64/hw/fingerprint.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.msm8998.so \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/EU/EU_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/EU/EU_Bluetooth_cal.acdb \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/EU/EU_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/EU/EU_General_cal.acdb \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/EU/EU_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/EU/EU_Global_cal.acdb \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/EU/EU_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/EU/EU_Handset_cal.acdb \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/EU/EU_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/EU/EU_Hdmi_cal.acdb \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/EU/EU_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/EU/EU_Headset_cal.acdb \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/EU/EU_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/EU/EU_Speaker_cal.acdb \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/EU/EU_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/EU/EU_workspaceFile.qwsp \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_General_cal.acdb \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Global_cal.acdb \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_workspaceFile.qwsp \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/qdcm_calib_data_samsung_s6e3fa5_1080p_cmd_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_samsung_s6e3fa5_1080p_cmd_mode_dsi_panel.xml \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/qdcm_calib_data_samsung_s6e3fa6_1080p_cmd_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_samsung_s6e3fa6_1080p_cmd_mode_dsi_panel.xml
+>>>>>>> 759e0af4... oneplus5: update blobs from 5.1.5, vendor move
