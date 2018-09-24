@@ -56,6 +56,13 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sdm845-common/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
     vendor/oneplus/sdm845-common/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/oneplus/sdm845-common/proprietary/etc/public.libraries-qti.txt:system/etc/public.libraries-qti.txt \
+    vendor/oneplus/sdm845-common/proprietary/etc/qvr/ov7251_640x480_cam_config.xml:system/etc/qvr/ov7251_640x480_cam_config.xml \
+    vendor/oneplus/sdm845-common/proprietary/etc/qvr/ov9282_640x400_cam_config.xml:system/etc/qvr/ov9282_640x400_cam_config.xml \
+    vendor/oneplus/sdm845-common/proprietary/etc/qvr/ov9282_stereo_1280x400_cam_config.xml:system/etc/qvr/ov9282_stereo_1280x400_cam_config.xml \
+    vendor/oneplus/sdm845-common/proprietary/etc/qvr/ov9282_stereo_2560x800_cam_config.xml:system/etc/qvr/ov9282_stereo_2560x800_cam_config.xml \
+    vendor/oneplus/sdm845-common/proprietary/etc/qvr/qvrservice_6dof_config.xml:system/etc/qvr/qvrservice_6dof_config.xml \
+    vendor/oneplus/sdm845-common/proprietary/etc/qvr/qvrservice_6dof_config_stereo.xml:system/etc/qvr/qvrservice_6dof_config_stereo.xml \
+    vendor/oneplus/sdm845-common/proprietary/etc/qvr/qvrservice_config.txt:system/etc/qvr/qvrservice_config.txt \
     vendor/oneplus/sdm845-common/proprietary/etc/sensors/proto/descriptor.proto:system/etc/sensors/proto/descriptor.proto \
     vendor/oneplus/sdm845-common/proprietary/etc/sensors/proto/nanopb.proto:system/etc/sensors/proto/nanopb.proto \
     vendor/oneplus/sdm845-common/proprietary/etc/sensors/proto/qti_gravity.proto:system/etc/sensors/proto/qti_gravity.proto \
