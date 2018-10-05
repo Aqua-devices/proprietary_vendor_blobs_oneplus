@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/oneplus/sdm845-common/proprietary/bin/qvrservice:system/bin/qvrservice \
+    vendor/oneplus/sdm845-common/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/oneplus/sdm845-common/proprietary/bin/wfdservice:system/bin/wfdservice \
     vendor/oneplus/sdm845-common/proprietary/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
     vendor/oneplus/sdm845-common/proprietary/etc/bluetooth/bt_profile.conf:system/etc/bluetooth/bt_profile.conf \
@@ -138,13 +139,11 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sdm845-common/proprietary/etc/sensors/proto/sns_timer.proto:system/etc/sensors/proto/sns_timer.proto \
     vendor/oneplus/sdm845-common/proprietary/etc/sensors/proto/sns_ultra_violet.proto:system/etc/sensors/proto/sns_ultra_violet.proto \
     vendor/oneplus/sdm845-common/proprietary/etc/sysconfig/google.xml:system/etc/sysconfig/google.xml \
-    vendor/oneplus/sdm845-common/proprietary/etc/sysconfig/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml \
     vendor/oneplus/sdm845-common/proprietary/etc/voicemail-conf.xml:system/etc/voicemail-conf.xml \
     vendor/oneplus/sdm845-common/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
     vendor/oneplus/sdm845-common/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
     vendor/oneplus/sdm845-common/proprietary/framework/audiosphere.jar:system/framework/audiosphere.jar \
     vendor/oneplus/sdm845-common/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
-    vendor/oneplus/sdm845-common/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/oneplus/sdm845-common/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
     vendor/oneplus/sdm845-common/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/oneplus/sdm845-common/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
@@ -450,6 +449,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleWCD9340 \
     HotwordEnrollmentXGoogleWCD9340 \
+    com.qti.location.sdk \
     com.qti.snapdragon.sdk.display \
     com.qualcomm.qti.camera \
     com.qualcomm.qti.imscmservice-V2.0-java \
