@@ -217,6 +217,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sdm845-common/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
     vendor/oneplus/sdm845-common/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
     vendor/oneplus/sdm845-common/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
+    vendor/oneplus/sdm845-common/proprietary/lib/libnl.so:system/lib/libnl.so \
     vendor/oneplus/sdm845-common/proprietary/lib/libopcameralib-em.so:system/lib/libopcameralib-em.so \
     vendor/oneplus/sdm845-common/proprietary/lib/liboptizoom.so:system/lib/liboptizoom.so \
     vendor/oneplus/sdm845-common/proprietary/lib/libqdMetaData.system.so:system/lib/libqdMetaData.system.so \
