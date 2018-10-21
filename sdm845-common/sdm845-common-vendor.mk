@@ -29,6 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sdm845-common/proprietary/etc/init/dpmd.rc:system/etc/init/dpmd.rc \
     vendor/oneplus/sdm845-common/proprietary/etc/init/wfdservice.rc:system/etc/init/wfdservice.rc \
     vendor/oneplus/sdm845-common/proprietary/etc/nfc_card_config.conf:system/etc/nfc_card_config.conf \
+    vendor/oneplus/sdm845-common/proprietary/etc/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
     vendor/oneplus/sdm845-common/proprietary/etc/permissions/LteDirectDiscovery.xml:system/etc/permissions/LteDirectDiscovery.xml \
     vendor/oneplus/sdm845-common/proprietary/etc/permissions/RemoteSimlock.xml:system/etc/permissions/RemoteSimlock.xml \
     vendor/oneplus/sdm845-common/proprietary/etc/permissions/UimService.xml:system/etc/permissions/UimService.xml \
