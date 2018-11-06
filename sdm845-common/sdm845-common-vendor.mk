@@ -160,7 +160,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sdm845-common/proprietary/framework/vendor.qti.voiceprint-V1.0-java.jar:system/framework/vendor.qti.voiceprint-V1.0-java.jar \
     vendor/oneplus/sdm845-common/proprietary/lib/android.hardware.light@2.0.so:system/lib/android.hardware.light@2.0.so \
     vendor/oneplus/sdm845-common/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
-    vendor/oneplus/sdm845-common/proprietary/lib64/hw/hwcomposer.sdm845.so:system/lib64/hw/hwcomposer.sdm845.so \
     vendor/oneplus/sdm845-common/proprietary/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:system/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/lib/com.qualcomm.qti.dpm.api@1.0.so:system/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
@@ -226,6 +225,10 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sdm845-common/proprietary/lib/libqti-perfd-client_system.so:system/lib/libqti-perfd-client_system.so \
     vendor/oneplus/sdm845-common/proprietary/lib/libqti-util_system.so:system/lib/libqti-util_system.so \
     vendor/oneplus/sdm845-common/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
+    vendor/oneplus/sdm845-common/proprietary/lib/libqvr_cam_cdsp_driver_stub.so:system/lib/libqvr_cam_cdsp_driver_stub.so \
+    vendor/oneplus/sdm845-common/proprietary/lib/libqvr_cdsp_driver_stub.so:system/lib/libqvr_cdsp_driver_stub.so \
+    vendor/oneplus/sdm845-common/proprietary/lib/libqvr_eyetracking_plugin.so:system/lib/libqvr_eyetracking_plugin.so \
+    vendor/oneplus/sdm845-common/proprietary/lib/libqvr_mapper_stub.so:system/lib/libqvr_mapper_stub.so \
     vendor/oneplus/sdm845-common/proprietary/lib/libqvrcamera_client.qti.so:system/lib/libqvrcamera_client.qti.so \
     vendor/oneplus/sdm845-common/proprietary/lib/libqvrservice.so:system/lib/libqvrservice.so \
     vendor/oneplus/sdm845-common/proprietary/lib/libqvrservice_client.qti.so:system/lib/libqvrservice_client.qti.so \
@@ -237,6 +240,9 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sdm845-common/proprietary/lib/libseestraight.so:system/lib/libseestraight.so \
     vendor/oneplus/sdm845-common/proprietary/lib/libtrueportrait.so:system/lib/libtrueportrait.so \
     vendor/oneplus/sdm845-common/proprietary/lib/libtruescanner.so:system/lib/libtruescanner.so \
+    vendor/oneplus/sdm845-common/proprietary/lib/libts_detected_face_jni.so:system/lib/libts_detected_face_jni.so \
+    vendor/oneplus/sdm845-common/proprietary/lib/libts_face_beautify_hal.so:system/lib/libts_face_beautify_hal.so \
+    vendor/oneplus/sdm845-common/proprietary/lib/libts_face_beautify_jni.so:system/lib/libts_face_beautify_jni.so \
     vendor/oneplus/sdm845-common/proprietary/lib/libtzcom.so:system/lib/libtzcom.so \
     vendor/oneplus/sdm845-common/proprietary/lib/libubifocus.so:system/lib/libubifocus.so \
     vendor/oneplus/sdm845-common/proprietary/lib/libvr_amb_engine.so:system/lib/libvr_amb_engine.so \
@@ -264,6 +270,13 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sdm845-common/proprietary/lib/libwfduibcsrc.so:system/lib/libwfduibcsrc.so \
     vendor/oneplus/sdm845-common/proprietary/lib/libwfduibcsrcinterface.so:system/lib/libwfduibcsrcinterface.so \
     vendor/oneplus/sdm845-common/proprietary/lib/libxt_native.so:system/lib/libxt_native.so \
+    vendor/oneplus/sdm845-common/proprietary/lib/rfsa/adsp/libdsp_streamer_qvrcam_receiver.so:system/lib/rfsa/adsp/libdsp_streamer_qvrcam_receiver.so \
+    vendor/oneplus/sdm845-common/proprietary/lib/rfsa/adsp/libeye_tracking_dsp_sample_skel.so:system/lib/rfsa/adsp/libeye_tracking_dsp_sample_skel.so \
+    vendor/oneplus/sdm845-common/proprietary/lib/rfsa/adsp/libqvr_cam_dsp_driver_skel.so:system/lib/rfsa/adsp/libqvr_cam_dsp_driver_skel.so \
+    vendor/oneplus/sdm845-common/proprietary/lib/rfsa/adsp/libqvr_dsp_driver_skel.so:system/lib/rfsa/adsp/libqvr_dsp_driver_skel.so \
+    vendor/oneplus/sdm845-common/proprietary/lib/rfsa/adsp/libqvr_mapper_skel.so:system/lib/rfsa/adsp/libqvr_mapper_skel.so \
+    vendor/oneplus/sdm845-common/proprietary/lib/rfsa/adsp/libsns_device_mode_skel.so:system/lib/rfsa/adsp/libsns_device_mode_skel.so \
+    vendor/oneplus/sdm845-common/proprietary/lib/rfsa/adsp/libsns_low_lat_stream_skel.so:system/lib/rfsa/adsp/libsns_low_lat_stream_skel.so \
     vendor/oneplus/sdm845-common/proprietary/lib/vendor.display.color@1.0.so:system/lib/vendor.display.color@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/lib/vendor.display.color@1.1.so:system/lib/vendor.display.color@1.1.so \
     vendor/oneplus/sdm845-common/proprietary/lib/vendor.display.config@1.0.so:system/lib/vendor.display.config@1.0.so \
@@ -310,6 +323,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sdm845-common/proprietary/lib/vendor.qti.ims.rcsconfig@1.0.so:system/lib/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/lib/vendor.qti.voiceprint@1.0.so:system/lib/vendor.qti.voiceprint@1.0.so \
+    vendor/oneplus/sdm845-common/proprietary/lib64/hw/hwcomposer.sdm845.so:system/lib64/hw/hwcomposer.sdm845.so \
     vendor/oneplus/sdm845-common/proprietary/lib64/android.hardware.light@2.0.so:system/lib64/android.hardware.light@2.0.so \
     vendor/oneplus/sdm845-common/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:system/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/oneplus/sdm845-common/proprietary/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so:system/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so \
@@ -390,6 +404,9 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sdm845-common/proprietary/lib64/libseestraight.so:system/lib64/libseestraight.so \
     vendor/oneplus/sdm845-common/proprietary/lib64/libtrueportrait.so:system/lib64/libtrueportrait.so \
     vendor/oneplus/sdm845-common/proprietary/lib64/libtruescanner.so:system/lib64/libtruescanner.so \
+    vendor/oneplus/sdm845-common/proprietary/lib64/libts_detected_face_jni.so:system/lib64/libts_detected_face_jni.so \
+    vendor/oneplus/sdm845-common/proprietary/lib64/libts_face_beautify_hal.so:system/lib64/libts_face_beautify_hal.so \
+    vendor/oneplus/sdm845-common/proprietary/lib64/libts_face_beautify_jni.so:system/lib64/libts_face_beautify_jni.so \
     vendor/oneplus/sdm845-common/proprietary/lib64/libtzcom.so:system/lib64/libtzcom.so \
     vendor/oneplus/sdm845-common/proprietary/lib64/libubifocus.so:system/lib64/libubifocus.so \
     vendor/oneplus/sdm845-common/proprietary/lib64/libvr_amb_engine.so:system/lib64/libvr_amb_engine.so \
